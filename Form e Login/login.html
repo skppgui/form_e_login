@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login SENAI</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="form_main">
+            <p class="heading">Login - SENAI</p>
+            <div class="inputContainer">
+                 
+                <input type="email" class="inputField" id="username" placeholder="digite seu email">
+            </div>
+
+            <div class="inputContainer">
+                <svg class="inputIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2e2e2e"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z">
+                    </path>
+                </svg>
+                <input type="password" class="inputField" id="password" placeholder="digite sua senha">
+            </div>
+
+            <div id="botaoCad">
+                <div id="loginCad">
+                    <button class="button" id="botaoEntrar" onclick="verifica()">Entrar</button>
+                </div>
+                <div id="cadastroCda">
+                     <button class="button" id="botaoCadastro">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="js/login.js"></script>
+
+</html>
